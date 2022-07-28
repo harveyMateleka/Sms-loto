@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56106352116",
+    "project_id": "smsloto-c712d",
+    "storage_bucket": "smsloto-c712d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56106352116:android:43ca6b3043cf22be5e4da1",
+        "android_client_info": {
+          "package_name": "com.example.smsloto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56106352116-mpqi5kuan3c49h1m8drjvcorof5p2mc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQefJPAEy3NiAOLo8DZzL4yZqMIQqo9Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56106352116-mpqi5kuan3c49h1m8drjvcorof5p2mc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
