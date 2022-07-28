@@ -21,7 +21,7 @@ Timer? _timer;
 
   getImageSliders() async{
     var _firebaseslider=FirebaseFirestore.instance;
-    QuerySnapshot querytt=await _firebaseslider.collection('utilisateur').where("telephone",isEqualTo:"0820044887").get();
+    QuerySnapshot querytt=await _firebaseslider.collection('utilisateur').get();
     setState(() {
       for(int a=0; a< querytt.docs.length;a++){
         if (querytt.docs[a]["telephone"]!='') {
@@ -77,7 +77,7 @@ Timer? _timer;
 
   Widget build(BuildContext context) {
     return Scaffold(
-        drawer: NavBar(),
+      
         appBar: AppBar(
         title: Text("SMS LOTO",style: TextStyle(color: Colors.white,fontSize: 12,),textAlign:TextAlign.center,),
       ),
